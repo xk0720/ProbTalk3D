@@ -1,5 +1,6 @@
 # path to additional modules, defined in prepare.py
 deps: ${code_path:./deps}
-datasets: ${code_path:./datasets}
+data_source: /lustre/projects/Research_Project-T127204/xk219/projects/datasets
+data_file: ${code_path:./datasets}
 code_dir: ${code_path:}
 working_dir: ${working_path:""}
