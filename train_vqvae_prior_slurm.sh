@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=probtalk3d
 #SBATCH --partition=gpu  # submit to the serial queue
-#SBATCH --time=2-00:00:00  # Maximum wall time for the job
+#SBATCH --time=3-00:00:00  # Maximum wall time for the job
 #SBATCH --account=Research_Project-T127204  # research project to submit under
 #SBATCH --nodes=1  # specify number of nodes
 #SBATCH --ntasks-per-node=1  # specify the number of tasks per node

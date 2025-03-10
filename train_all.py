@@ -52,7 +52,7 @@ def train(cfg: DictConfig) -> None:
         instantiate(cfg.callback.progress, metric_monitor=metric_monitor),
         instantiate(cfg.callback.best_epoch_ckpt),  # Best epoch checkpoint (on validation loss)
         instantiate(cfg.callback.last_ckpt),        # Latest checkpoint and last.ckpt
-        instantiate(cfg.callback.early_stopping),
+        # instantiate(cfg.callback.early_stopping),
     ]
     logger.info("Callbacks initialized")
 
